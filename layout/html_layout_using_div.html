@@ -1,0 +1,75 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <title>Html layout using div</title>
+    <style type="text/css">
+        div#container {
+            width: 500px;
+        }
+
+        div#header {
+            background-color: blue;
+        }
+
+        div#menu {
+            background-color: green;
+            height: 200px;
+            width: 100px;
+            float: left;
+        }
+
+        div#content {
+            background-color: white;
+            height: 200px;
+            width: 100px;
+            float: left;
+        }
+
+        div#footer {
+            background-color: red;
+            clear: both;
+            text-align: center;
+        }
+
+        h1 {
+            margin-bottom: 0;
+        }
+
+        h2 {
+            margin-bottom: 0;
+            font-size: 18px;
+        }
+
+        ul {
+            margin: 0px;
+        }
+
+        li {
+            list-style: disc;
+        }
+    </style>
+</head>
+<body>
+<div id="container">
+    <div id="header">
+        <h1>Header</h1>
+    </div>
+    <div id="menu">
+        <h2>Menu</h2>
+        <ul>
+            <li>HTML</li>
+            <li>css</li>
+            <li>javacript</li>
+        </ul>
+    </div>
+</div>
+<div id="content">
+    Content here
+</div>
+<div id="footer">
+    copyright bla bla bla
+</div>
+
+</body>
+</html>
