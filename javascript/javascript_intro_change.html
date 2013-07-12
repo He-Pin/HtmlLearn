@@ -1,0 +1,21 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <title>Javascript change html</title>
+</head>
+<body>
+<h1>getElementById</h1>
+
+<p id="demo">javascript can change the element</p>
+<script type="text/javascript">
+    function change() {
+        var x = document.getElementById("demo");
+        x.innerHTML = "Hello Javascript";
+    }
+</script>
+<button type="button" onclick="change()">
+    Click Me
+</button>
+</body>
+</html>

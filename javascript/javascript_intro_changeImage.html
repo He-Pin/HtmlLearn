@@ -1,0 +1,23 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <title>Javascript change image</title>
+</head>
+<body>
+<h1>document.getElementById</h1>
+
+<p>change the Image</p>
+<script type="text/javascript">
+    function changeImage() {
+        var element = document.getElementById('image');
+        if (element.src.match("wallpaper")) {
+            element.src = "img/selection_018.png";
+        } else {
+            element.src = "img/wallpaper-168143.jpg";
+        }
+    }
+</script>
+<img id="image" src="img/wallpaper-168143.jpg" alt="wallpaper" onclick="changeImage()">
+</body>
+</html>

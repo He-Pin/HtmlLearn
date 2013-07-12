@@ -1,0 +1,23 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <title>Javascript Block</title>
+</head>
+<body>
+<h1>function,document.getElementById</h1>
+
+<p id="myPar">i am paragraph</p>
+
+<div id="myDiv">i am div</div>
+<p>
+    <button type="button" onclick="myfunc()"> click me</button>
+</p>
+<script type="text/javascript">
+    function myfunc() {
+        document.getElementById("myPar").innerHTML = "hello";
+        document.getElementById("myDiv").innerHTML = "world";
+    }
+</script>
+</body>
+</html>
