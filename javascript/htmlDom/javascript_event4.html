@@ -1,0 +1,22 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <title>javascript event remote call</title>
+</head>
+<body>
+    <button id="bt">click me </button>
+    <script type="text/javascript">
+        var x = document.getElementById("bt");
+        x.onclick= function(){
+            func();
+        };
+        function func(){
+            var x = document.getElementById("demo");
+            x.innerHTML=Date();
+        }
+    </script>
+    <br>
+    <p1 id = "demo"></p1>
+</body>
+</html>

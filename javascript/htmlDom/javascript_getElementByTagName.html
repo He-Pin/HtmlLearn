@@ -1,0 +1,20 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <title>javascript getElementByTagName</title>
+</head>
+<body>
+    <p>Hello world</p>
+    <div id = "main">
+        <p>dom node of main</p>
+        <h1>getElementByTagName</h1>
+    </div>
+    <script type="text/javascript">
+        var x = document.getElementById("main");
+        var y = document.getElementsByTagName("p");
+        document.write("main y:"+y[0].innerHTML+"<br>");
+        document.write("main x:"+ x.innerHTML);
+    </script>
+</body>
+</html>

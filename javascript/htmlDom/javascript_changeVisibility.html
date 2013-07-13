@@ -1,0 +1,20 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <title>javascript change visibility</title>
+</head>
+<body>
+    <h1>document.getElementByID</h1>
+    <p id = "p1">i am header</p>
+    <button type="button" onclick="
+        document.getElementById('p1');
+        p1.style.visibility='hidden';
+    ">hide</button>
+    <br>
+    <button type="button" onclick="
+        var p1 = document.getElementById('p1');
+        p1.style.visibility='visible';
+    ">show</button>
+</body>
+</html>

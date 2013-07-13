@@ -1,0 +1,45 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <title>javascript switch</title>
+    <script type="text/javascript">
+        function    func(){
+            var x;
+            var d = new Date().getDay();
+            switch (d){
+                case 0:
+                    x = "sunday";
+                    break;
+                case 1:
+                    x = "monday";
+                    break;
+                case 2:
+                    x = "tuesday";
+                    break;
+                case 3:
+                    x = "wednesday";
+                    break;
+                case 4:
+                    x = "thursday";
+                    break;
+                case 5:
+                    x = "friday";
+                    break;
+                case 6:
+                    x = "satuday";
+                    break;
+                default :
+                    x = "cannot be happen";
+            }
+            document.getElementById("demo")
+                    .innerHTML
+                        =x;
+        }
+    </script>
+</head>
+<body>
+    <button onclick="func()">click me</button>
+    <p id = "demo"></p>
+</body>
+</html>

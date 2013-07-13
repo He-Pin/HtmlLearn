@@ -1,0 +1,17 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <title>javascript event call2</title>
+</head>
+<body>
+    <h1 onclick="func()">click on me</h1>
+    <script type="text/javascript">
+        function func(){
+            var x = document.getElementById("demo");
+            x.innerHTML=Date();
+        }
+    </script>
+    <p id="demo">call</p>
+</body>
+</html>

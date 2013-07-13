@@ -1,0 +1,24 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <title>javascript for loop</title>
+</head>
+<body>
+    <p>click below</p>
+    <button onclick="func()">click me</button>
+    <br>
+    <p id = "demo"></p>
+    <script type="text/javascript">
+        function func(){
+            var x = "";
+            for(var i =0;i<5;i++){
+                x = x + "the number is :" + i +"<br>";
+            }
+            document.getElementById("demo")
+                    .innerHTML
+                    =x;
+        }
+    </script>
+</body>
+</html>
